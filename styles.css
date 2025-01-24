@@ -1,39 +1,24 @@
 body {
       margin: 20px;
+	
     }
     table {
-      width: 50%;
-      margin: 0 auto 20px;
+      width: 100%;
       border-collapse: collapse;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-    table thead {
-      background-color: #4CAF50;
-      color: white;
-    }
+
     table th, table td {
-      border: 1px solid #be7979;
+      border: 1px solid black;
       text-align: center;
       padding: 10px;
     }
-    table tbody tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
+   
     h2 {
       text-align: center;
-      color: #010101;
       margin: 20px 0;
     }
     ol {
       width: 100%;
-      margin: 0 auto;
-      padding-left: 20px;
-    }
-    ol li {
-      margin: 10px;
-    }
-    ol img, ol video, ol audio {
-      display: block;
-      margin: 10px;
-    }
-/* Your CSS Code here. */
+      margin: 0;
+	}
+
