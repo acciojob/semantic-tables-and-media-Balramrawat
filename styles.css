@@ -3,7 +3,7 @@ body {
 	
     }
     table {
-      /* width: 100%; */
+      width: 100%;
       border-collapse: collapse;
     }
 
@@ -21,4 +21,8 @@ body {
       width: 100%;
       margin: 0;
 	}
+	ol img, ol video, ol audio {
+      display: block;
+      margin: 10px;
+    }
 
